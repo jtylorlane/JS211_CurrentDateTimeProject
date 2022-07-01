@@ -15,12 +15,34 @@ const displayDate = () => {
  
 
 // Write a JavaScript program to convert a number to a string.
+const numToString = ()=> {
 
+  let convertNum = 10;
+
+  let text = convertNum.toString();
+
+  return text;
+
+}
 
 
 // Write a JavaScript program to convert a string to the number.
 
+const strToNum = ()=> {
 
+let convertString = "28";
+
+// another variable to hold the number converted from the String
+let newNum = parseInt(convertString);
+
+console.log(newNum);
+
+// console log to check my work 
+
+// return the number 
+document.getElementById("string-number").innerHTML = newNum;
+
+}
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
@@ -30,13 +52,34 @@ const displayDate = () => {
   // * NaN
   // * String
   
+// get a value from a form input and put it in a variable
+// if typeof input variable is Boolean
+// return "its boolean"
+// else if its a null value
+// return "its a null value"
 
-  
+// let a =true
+// let b =null
+// let c
+// let d=33
+// let e=
+// letf f = "this is a string"
+// result='a is ${a} b is ${b}
+// 
+
 // Write a JavaScript program that adds 2 numbers together.
 
+// const num1 =8
+// const num2 =4
 
+// const sum = num1 + num2;
+
+// console.log(sum)
 
 // Write a JavaScript program that runs only when 2 things are true.
+
+// const love= true;
+// const hate=true;
 
 
 
